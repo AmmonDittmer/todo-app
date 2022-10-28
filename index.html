@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/5230869ead.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer type="text/javascript" src="./javascript.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Todo</title>
+        
+        
+    </head>
+    <body>
+        
+        <div class="outer">
+            <nav class="navbar">
+                <h1>Listo</h1>
+                <div id="icons">
+                    <a class="fa-solid fa-gear" href="#settings"></a>
+                    <a class="fa-solid fa-user" href="#profile"></a>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="todo">
+                        <h3>Add list</h3>
+                        <input type="text" id="list" placeholder="Title...">
+                        <span onclick="addList()" class="addBtn">+</span>
+                        <h3>Add todo</h3>
+                        <input type="text" id="Todo" placeholder="Title...">
+                        <span onclick="addTodo()" class="addBtn">+</span>
+                        
+                     
+                    </div>
+                    <div class="col-8">
+                        
+                        <ul id="output" >
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
